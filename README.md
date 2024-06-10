@@ -46,3 +46,9 @@ This project implements a robust and scalable backend system that manages reques
 - Node -js
 - MongoDB
 - Docker
+
+## API endpoints
+- ResgisterUser(POST) ----> http://localhost:8085/auth/register
+- Login(POST) ---> http://localhost:8085/auth/login
+- Logout(POST) ---> http://localhost:8085/auth/logout
+- Enqueue(POST) ---> http://localhost:8085/enqueue
