@@ -47,7 +47,7 @@ app.post('/enqueue', (req, res) => {
 
   // Add the task to the user's queue
   userQueue.add(task);
-  startWorker(user.username);
+  startWorker(username);
 
   res.send('Request enqueued');
 });
